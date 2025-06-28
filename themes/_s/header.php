@@ -16,6 +16,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+<!-- Tailwind CDN (development only) -->
+<script src="https://cdn.tailwindcss.com"></script>
 
 	<?php wp_head(); ?>
 </head>
@@ -42,6 +44,5 @@
     <a href="/projects">Projects</a>
     <a href="/testimonials">Testimonial</a>
     <a href="/coming-soon">Coming Soon</a>
-    <button class="nav-btn">Buy Now</button>
   </nav>
 </header>
