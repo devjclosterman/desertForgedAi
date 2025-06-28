@@ -1,0 +1,8 @@
+| Feature             | Tool / Integration                |
+| ------------------- | --------------------------------- |
+| Bot Logging         | Modify LLaMA backend, Supabase DB |
+| SEO Analytics       | Google Search Console API         |
+| Load Speed Tracking | Lighthouse CI or Web Vitals API   |
+| Charts/Visuals      | Chart.js or Recharts              |
+| Hosting             | Vercel (for API/dashboard) + WP   |
+| Auth (optional)     | Supabase or Clerk                 |

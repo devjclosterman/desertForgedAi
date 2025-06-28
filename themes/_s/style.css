@@ -1255,7 +1255,10 @@ box-shadow: inset -15px -15px 40px rgba(0, 0, 0, 0.2),
 inset 10px 10px 25px rgba(255, 255, 255, 0.15),
 0 20px 40px rgba(0, 0, 0, 0.3);
 animation: morph 8s ease-in-out infinite alternate;
-background-image: url("/5pageWebsite4Sale/images/backgroundAI.png");
+background-image: url(/wp-content/uploads/2025/06/ChatGPT-Image-Jun-8-2025-12_00_54-AM.png);
+    background-position: center;
+    background-size: 16rem;
+    background-repeat: no-repeat;
 }
 
 @keyframes morph {
@@ -1389,7 +1392,7 @@ background-color: #00c0cc;
 /* about  */
 
 .about-wrapper {
-  background-image: url("/images/pheonixSvg.png");
+  background-image: url("/wp-content/uploads/2025/06/pheonixSvg.png");
   background-color: #1e1e1e;
   background-repeat: no-repeat;
   background-position: top;
@@ -1521,7 +1524,7 @@ mix-blend-mode: overlay;
 
 .footer {
 padding: 3rem 2rem;
-background-color: #2d231c;
+/* background-color: #2d231c; */
 text-align: center;
 }
 
@@ -1631,7 +1634,7 @@ border-radius: 50%;
 
 .balancing-board {
 position: relative;
-height: 100px;
+height: 32rem;
 background: linear-gradient(to top, #3b2c24, #000);
 /* background-image: url("/images/burnedwood.jpg"); */
 border-radius: 20px;
@@ -1846,6 +1849,72 @@ opacity: 0.85;
   overflow: hidden;
 }
 
+.content-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  width: 90%;
+  max-width: 800px;
+}
+
+.overlay-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  margin-bottom: 1rem;
+}
+
+.overlay-subheading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+@keyframes flash {
+  0%, 100% { opacity: 0; }
+  5%, 50% { opacity: 1; }
+}
+
+@keyframes strike {
+  0% { transform: scaleY(0); opacity: 0; }
+  30% { transform: scaleY(1.2); opacity: 1; }
+  50% { transform: scaleY(0.9); opacity: 0.8; }
+  100% { transform: scaleY(0); opacity: 0; }
+}
+
+.lightning-text {
+  position: relative;
+  display: inline-block;
+}
+
+.lightning::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.3) 0%, transparent 70%);
+  animation: flash 3s infinite ease-in-out;
+}
+
+.lightning::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #ffffff, #00f0ff, #ffffff);
+  transform: translate(-50%, -50%);
+  animation: strike 3s infinite ease-in-out;
+  z-index: -1;
+  filter: drop-shadow(0 0 6px #00f0ff);
+}
+
 .hero, .hero-text, .blob, .ball {
   /* position: relative; */
   z-index: 1; /* Make sure it's above the canvas */
@@ -1944,3 +2013,58 @@ border-radius: 0 0 20px 20px;
 	width: 38rem;
 	margin: 0 auto;
 }
+
+.video-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  object-fit: cover;
+}
+
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.moveLarge {
+	left: 2rem;
+	top: 1rem;
+}
+
+.medium2move {
+	left: 18rem;
+    top: 2rem;
+}
+
+.mediumMove {
+	left: 45rem;
+    top: 2rem;
+}
+
+.moveSmall {
+	left: 76rem;
+    top: 2rem;
+}
+
+video {
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
+

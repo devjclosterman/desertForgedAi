@@ -1,0 +1,6 @@
+{"prompt": "hello", "reply": "Exception when calling Ollama: Command '['ollama', 'run', 'llama2', 'hello']' timed out after 10 seconds"}
+{"prompt": "test", "reply": "Exception when calling Ollama: Command '['ollama', 'run', 'llama2', 'test']' timed out after 10 seconds"}
+{"prompt": "test one two", "reply": "Sure! Here is the result of the calculation:
+
+1 + 2 = 3"}
+{"prompt": "testing", "reply": "Hello! How can I assist you today? Is there something you would like to talk about or ask?"}
