@@ -518,7 +518,7 @@ object {
 
 img {
 	height: auto;
-	width: 200px;
+	/* width: 200px; */
 	/* max-width: 100%; */
 }
 
@@ -1233,7 +1233,7 @@ button {
 
 .hero {
     position: relative;
-    height: 77vh;
+    /* height: 50vh; */
     overflow: hidden;
     /* background: radial-gradient(ellipse at center, #3a2e28, #1e1a17); */
     padding: 4rem;
@@ -1242,33 +1242,7 @@ button {
   color: white;
 }
 
-.blob {
-position: absolute;
-top: 63%;
-left: 82%;
-transform: translate(-50%, -50%);
-width: 320px;
-height: 320px;
-background: radial-gradient(circle at 30% 30%, #f5d1b8, #ba9a81);
-border-radius: 52% 48% 55% 45% / 40% 60% 35% 65%;
-box-shadow: inset -15px -15px 40px rgba(0, 0, 0, 0.2),
-inset 10px 10px 25px rgba(255, 255, 255, 0.15),
-0 20px 40px rgba(0, 0, 0, 0.3);
-animation: morph 8s ease-in-out infinite alternate;
-background-image: url(/wp-content/uploads/2025/06/ChatGPT-Image-Jun-8-2025-12_00_54-AM.png);
-    background-position: center;
-    background-size: 16rem;
-    background-repeat: no-repeat;
-}
 
-@keyframes morph {
-0% {
-border-radius: 52% 48% 55% 45% / 40% 60% 35% 65%;
-}
-100% {
-border-radius: 45% 55% 60% 40% / 50% 50% 45% 55%;
-}
-}
 .hero-text {
 position: relative;
 z-index: 2;
@@ -1298,24 +1272,6 @@ z-index: 2;
   padding-bottom: 10px;
 }
 
-/* crypto charts */
-.charts-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 2rem;
-padding: 0 2rem;
-}
-
-.chart-box {
-background-color: #2a2a2a;
-padding: 1rem;
-border-radius: 8px;
-}
-
-canvas {
-width: 100%;
-height: 250px;
-}
 
 
 /* Contact us page */
@@ -1400,11 +1356,23 @@ background-color: #00c0cc;
   height: 30em;
 }
 
+.about_header {
+  font-size: 4em;
+}
+
+.mission {
+  font-size: 3em;
+}
+
+.paraAbout {
+  font-size: 1.5em;
+}
+
 .glass-panel {
 position: relative;
 overflow: hidden; 
 border-radius: 25px;
-backdrop-filter: blur(10px);
+backdrop-filter: blur(3px);
 height: 18em;
 padding: 1%;
 max-width: 90%;
@@ -1417,7 +1385,7 @@ margin: 0 auto;
 
 .warning {
   text-align: center;
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 .tagline {
@@ -1520,31 +1488,139 @@ z-index: 1000;
 mix-blend-mode: overlay;
 }
 
+.backdrop-blur-md {
+	margin-top: -4rem;
+}
+
+/* data cards */
+.outer {
+  width: 80%;
+  height: 250px;
+  
+  /* border-radius: 10px; */
+  padding: 1px;
+  background: radial-gradient(circle 230px at 0% 0%, #ffffff, #0c0d0d);
+  position: relative;
+}
+
+.dot {
+  width: 5px;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 100px;
+  z-index: 2;
+  right: 10%;
+  top: 10%;
+  animation: moveDot 6s linear infinite;
+}
+
+@keyframes moveDot {
+  0%,
+  100% {
+    top: 10%;
+    right: 10%;
+  }
+  25% {
+    top: 10%;
+    right: calc(100% - 35px);
+  }
+  50% {
+    top: calc(100% - 30px);
+    right: calc(100% - 35px);
+  }
+  75% {
+    top: calc(100% - 30px);
+    right: 10%;
+  }
+}
+
+.card {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  border: solid 1px #202222;
+  background-size: 20px 20px;
+  background: radial-gradient(circle 280px at 0% 0%, #444444, #0c0d0d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  color: #fff;
+}
+.ray {
+  width: 220px;
+  height: 45px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #c7c7c7;
+  opacity: 0.4;
+  box-shadow: 0 0 50px #fff;
+  filter: blur(10px);
+  transform-origin: 10%;
+  top: 0%;
+  left: 0;
+  transform: rotate(40deg);
+}
+
+.card .text {
+  font-weight: bolder;
+  font-size: 4rem;
+  background: linear-gradient(45deg, #000000 4%, #fff, #000);
+  background-clip: text;
+  color: transparent;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #2c2c2c;
+}
+.topl {
+  top: 10%;
+  background: linear-gradient(90deg, #888888 30%, #1d1f1f 70%);
+}
+.bottoml {
+  bottom: 10%;
+}
+.leftl {
+  left: 10%;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(180deg, #747474 30%, #222424 70%);
+}
+.rightl {
+  right: 10%;
+  width: 1px;
+  height: 100%;
+}
+
+.analytics {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+}
 /* footer  */
 
 .footer {
-padding: 3rem 2rem;
-/* background-color: #2d231c; */
 text-align: center;
+}
+
+.w-full {
+	width: 100%;
 }
 
 .wood-footer {
 position: relative;
-/* background: url('/images/burnedwood.jpg') no-repeat center/cover; */
-height: 120px; /* Adjust to match your image */
+height: 120px;
 display: flex;
 align-items: center;
 justify-content: center;
 }
-
-/* .wood-footer-text {
-font-family: 'Georgia', serif;
-color: rgba(255, 255, 255, 0.7);
-font-size: 1rem;
-text-shadow: 1px 1px 2px #000;
-position: absolute;
-bottom: 15px;
-} */
 
 .wood-footer-text {
 position: absolute;
@@ -1608,11 +1684,33 @@ text-shadow: 0 0 4px #b287f0;
 color: #fff;
 }
 
-/* ////// start over with damn balls/// */
+.balancing-board {
+  position: relative;
+  width: 100%;
+  height: 25em;
+  overflow: hidden;
+}
+
+.balancing-board video {
+  width: 100%;
+  height: 100%;
+  object-fit: inherit;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Ensure balls are overlaid */
+.balancing-board > div {
+  position: relative;
+  z-index: 2;
+}
 
 
 .ball.small {
-width: 30px;
+width: 60px;
 height: 30px;
 }
 
@@ -1629,32 +1727,24 @@ height: 70px;
 .balancing-board .ball {
 background: radial-gradient(circle at 30% 30%, #805f4c, #3c2b22);
 border-radius: 50%;
-
 }
 
 .balancing-board {
 position: relative;
-height: 32rem;
+/* height: 46rem; */
+/* height: 20vh; */
 background: linear-gradient(to top, #3b2c24, #000);
-/* background-image: url("/images/burnedwood.jpg"); */
-border-radius: 20px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-padding: 0 1rem;
 overflow: hidden;
+/* back */
 }
 
 .balancing-board .ball {
 border-radius: 50%;
 background: radial-gradient(circle at 30% 30%, #deb887, #3b2c24);
-/* background-image: url("/images/burnedwood.jpg"); */
-
 box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 flex-shrink: 0;
 animation: float 3s ease-in-out infinite;
 }
-
 
 @keyframes float {
 0%, 100% { transform: translateY(0); }
@@ -1662,7 +1752,6 @@ animation: float 3s ease-in-out infinite;
 }
 
 /* smaller balls */
-
 @keyframes floatBall {
 0% { transform: translateY(0px) rotate(0deg); }
 50% { transform: translateY(-30px) rotate(180deg); }
@@ -1688,12 +1777,39 @@ animation: float 3s ease-in-out infinite;
 }
 
 /* projects */
+
+.containerMain {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #01857c;
+}
+
+.hero-button:hover {
+  background-color: #e0e0e0;
+}
+
+
 header {
 text-align: center;
 }
 
 .projectmain {
     padding: 2em;
+}
+
+.inherit {
+	height: 50vh;
+	width: 100%;
 }
 
 .projects-grid {
@@ -1915,7 +2031,7 @@ opacity: 0.85;
   filter: drop-shadow(0 0 6px #00f0ff);
 }
 
-.hero, .hero-text, .blob, .ball {
+.hero, .hero-text, .ball {
   /* position: relative; */
   z-index: 1; /* Make sure it's above the canvas */
 }
@@ -1940,65 +2056,6 @@ opacity: 0.85;
     font-family: "Maginia-Regular";
 }
 
-/* LLM  */
-#forge-chatbox {
-position: fixed;
-bottom: 2rem;
-right: 2rem;
-width: 320px;
-height: 420px;
-background: rgba(0, 0, 0, 0.55);
-backdrop-filter: blur(10px);
-border: 1px solid rgba(0, 255, 255, 0.2);
-border-radius: 20px;
-display: flex;
-flex-direction: column;
-z-index: 9999;
-font-family: 'Segoe UI', sans-serif;
-color: #fff;
-box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
-}
-
-.forge-header {
-background: rgba(0, 255, 255, 0.08);
-padding: 0.8rem;
-font-weight: bold;
-text-align: center;
-border-bottom: 1px solid rgba(0,255,255,0.1);
-font-size: 1.1rem;
-}
-
-.forge-messages {
-flex: 1;
-padding: 1rem;
-overflow-y: auto;
-font-size: 0.95rem;
-}
-
-.forge-bot, .forge-user {
-margin-bottom: 1rem;
-line-height: 1.4;
-}
-
-.forge-bot {
-color: #00ffff;
-}
-
-.forge-user {
-color: #aaa;
-text-align: right;
-}
-
-#forge-input {
-border: none;
-outline: none;
-padding: 0.8rem;
-background: rgba(0, 0, 0, 0.6);
-color: #fff;
-border-top: 1px solid rgba(0, 255, 255, 0.2);
-font-size: 0.95rem;
-border-radius: 0 0 20px 20px;
-}
 
 
 /* testimonial  */
@@ -2041,23 +2098,23 @@ border-radius: 0 0 20px 20px;
 }
 
 .moveLarge {
-	left: 2rem;
-	top: 1rem;
+	left: 17rem;
+	top: 4rem;
 }
 
 .medium2move {
-	left: 18rem;
-    top: 2rem;
+	left: 25rem;
+    top: 3rem;
 }
 
 .mediumMove {
-	left: 45rem;
+	left: 75rem;
     top: 2rem;
 }
 
 .moveSmall {
-	left: 76rem;
-    top: 2rem;
+	left: 88rem;
+    top: 4rem;
 }
 
 video {
@@ -2068,3 +2125,23 @@ video {
 
 
 
+/* globals */
+
+.paraText {
+	font-size: 1rem;
+}
+
+
+/* mobile  */
+@media screen and (max-width: 1000px) {
+  .nav-bar {
+   display: none;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .analytics {
+   flex-direction: column;
+   align-items: center;
+  }
+}

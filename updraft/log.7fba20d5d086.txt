@@ -1,0 +1,272 @@
+0000.001 (0) Opened log file at time: Sun, 29 Jun 2025 05:12:59 +0000 on http://desertforgedai.local
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 8.2.27 (cgi-fcgi, Windows NT JERUSALEM 10.0 build 26100 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 4M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 803687.6 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.009 (0) Semaphore (fd, wp_options) being initialised
+0000.013 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.017 (0) Set semaphore last lock (fd) time to 2025-06-29 05:12:59
+0000.017 (0) Semaphore lock (fd) complete
+0000.021 (0) Backup run: resumption=0, nonce=7fba20d5d086, file_nonce=7fba20d5d086 begun at=1751173979 (0s ago), job type=backup
+0000.024 (0) Scheduling a resumption (1) after 300 seconds (1751174279) in case this run gets aborted
+0000.050 (0) Checking if we have a zip executable available
+0000.053 (0) Creation of backups of directories: beginning
+0000.058 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.769 (0) Total entities for the zip file: 890 directories, 6460 files (0 skipped as non-modified), 68.7 MB
+0001.835 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.895 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.960 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.016 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.070 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.123 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.181 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.183 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (21.1 MB, 702 (702) files added so far); re-opening (prior size: 0 KB)
+0005.036 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 800 files added (on-disk size: 6676 KB)
+0005.060 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 900 files added (on-disk size: 6676 KB)
+0005.118 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1000 files added (on-disk size: 6676 KB)
+0005.175 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1100 files added (on-disk size: 6676 KB)
+0005.226 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1200 files added (on-disk size: 6676 KB)
+0005.260 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1300 files added (on-disk size: 6676 KB)
+0005.316 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1400 files added (on-disk size: 6676 KB)
+0005.377 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1500 files added (on-disk size: 6676 KB)
+0005.433 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1600 files added (on-disk size: 6676 KB)
+0005.490 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1700 files added (on-disk size: 6676 KB)
+0005.493 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.8 MB, 6460 files batched, 1001 (1703) added so far); re-opening (prior size: 6676 KB)
+0006.687 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1800 files added (on-disk size: 9813.9 KB)
+0006.729 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 1900 files added (on-disk size: 9813.9 KB)
+0006.757 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2000 files added (on-disk size: 9813.9 KB)
+0006.814 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2100 files added (on-disk size: 9813.9 KB)
+0006.867 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2200 files added (on-disk size: 9813.9 KB)
+0006.926 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2300 files added (on-disk size: 9813.9 KB)
+0006.987 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2400 files added (on-disk size: 9813.9 KB)
+0007.043 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2500 files added (on-disk size: 9813.9 KB)
+0007.104 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2600 files added (on-disk size: 9813.9 KB)
+0007.126 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2700 files added (on-disk size: 9813.9 KB)
+0007.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.4 MB, 6460 files batched, 1001 (2704) added so far); re-opening (prior size: 9813.9 KB)
+0008.450 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2800 files added (on-disk size: 17028.6 KB)
+0008.510 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 2900 files added (on-disk size: 17028.6 KB)
+0008.566 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3000 files added (on-disk size: 17028.6 KB)
+0008.623 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3100 files added (on-disk size: 17028.6 KB)
+0008.679 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3200 files added (on-disk size: 17028.6 KB)
+0008.737 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3300 files added (on-disk size: 17028.6 KB)
+0008.796 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3400 files added (on-disk size: 17028.6 KB)
+0008.834 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3500 files added (on-disk size: 17028.6 KB)
+0008.885 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3600 files added (on-disk size: 17028.6 KB)
+0008.926 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3700 files added (on-disk size: 17028.6 KB)
+0008.928 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.2 MB, 6460 files batched, 1001 (3705) added so far); re-opening (prior size: 17028.6 KB)
+0010.453 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3800 files added (on-disk size: 20946.3 KB)
+0010.507 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 3900 files added (on-disk size: 20946.3 KB)
+0010.560 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4000 files added (on-disk size: 20946.3 KB)
+0010.613 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4100 files added (on-disk size: 20946.3 KB)
+0010.665 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4200 files added (on-disk size: 20946.3 KB)
+0010.722 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4300 files added (on-disk size: 20946.3 KB)
+0010.773 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4400 files added (on-disk size: 20946.3 KB)
+0010.823 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4500 files added (on-disk size: 20946.3 KB)
+0010.879 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4600 files added (on-disk size: 20946.3 KB)
+0010.927 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4700 files added (on-disk size: 20946.3 KB)
+0010.932 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.9 MB, 6460 files batched, 1001 (4706) added so far); re-opening (prior size: 20946.3 KB)
+0011.615 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4800 files added (on-disk size: 21937.5 KB)
+0011.664 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 4900 files added (on-disk size: 21937.5 KB)
+0011.721 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5000 files added (on-disk size: 21937.5 KB)
+0011.765 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5100 files added (on-disk size: 21937.5 KB)
+0011.802 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5200 files added (on-disk size: 21937.5 KB)
+0011.827 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5300 files added (on-disk size: 21937.5 KB)
+0011.883 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5400 files added (on-disk size: 21937.5 KB)
+0011.920 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5500 files added (on-disk size: 21937.5 KB)
+0011.961 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5600 files added (on-disk size: 21937.5 KB)
+0012.014 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5700 files added (on-disk size: 21937.5 KB)
+0012.020 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.6 MB, 6460 files batched, 1001 (5707) added so far); re-opening (prior size: 21937.5 KB)
+0012.811 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5800 files added (on-disk size: 23057.3 KB)
+0012.880 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 5900 files added (on-disk size: 23057.3 KB)
+0012.941 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 6000 files added (on-disk size: 23057.3 KB)
+0012.981 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 6100 files added (on-disk size: 23057.3 KB)
+0013.040 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 6200 files added (on-disk size: 23057.3 KB)
+0013.100 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 6300 files added (on-disk size: 23057.3 KB)
+0013.154 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.tmp: 6400 files added (on-disk size: 23057.3 KB)
+0013.809 (0) Creating zip file manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.list-temp.tmp)
+0013.858 (0) Successfully created zip file manifest (size: 630955)
+0014.097 (0) Created plugins zip (0) - 24077.2 KB in 14 s (1715.5 KB/s) (sha1: b29e8f680c83d6135a11ca9097d09a228a286536, sha256: 03bc5d5e70b2ee4ff86bec2252f0f9a9b1bd5ddf7c8a6b821350f3f13cc127e1)
+0014.107 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.108 (0) No remote despatch: user chose no remote backup service
+0014.109 (0) Recording as successfully uploaded: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip
+0014.112 (0) Deleting zip manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip.list.tmp)
+0014.116 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.117 (0) Number of backup sets in history: 0; groups (db): 1
+0014.119 (0) Number of backup sets in history: 0; groups (files): 1
+0014.120 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0014.128 (0) Beginning creation of dump of themes (split every: 400 MB)
+0014.157 (0) Total entities for the zip file: 17 directories, 62 files (0 skipped as non-modified), 0.2 MB
+0014.445 (0) Creating zip file manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-themes.zip.list-temp.tmp)
+0014.448 (0) Successfully created zip file manifest (size: 2888)
+0014.459 (0) Created themes zip (0) - 71.2 KB in 0.3 s (218.5 KB/s) (sha1: acb188d87a70cd376766eec4bebb99ba34d72f7d, sha256: 33a725e8619916cbd1f3cdbbdc98a5061dce9cc6d996c36ba17c815d8fd0082c)
+0014.465 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.466 (0) No remote despatch: user chose no remote backup service
+0014.467 (0) Recording as successfully uploaded: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-themes.zip
+0014.470 (0) Deleting zip manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-themes.zip.list.tmp)
+0014.473 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.477 (0) Number of backup sets in history: 0; groups (db): 1
+0014.478 (0) Number of backup sets in history: 0; groups (files): 1
+0014.480 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0014.487 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0014.488 (0) Looking for candidates to backup in: C:\Users\devjc\Local Sites\desertforgedai\app\public/wp-content/uploads
+0014.490 (0) finding files: 2025: adding to list (1)
+0014.491 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0014.542 (0) Total entities for the zip file: 2 directories, 144 files (0 skipped as non-modified), 47.4 MB
+0014.590 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.5 MB, 144 files batched, 74 (74) added so far); re-opening (prior size: 0 KB)
+0015.142 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 0.9 s, rate: 28343.2 KB/s)
+0015.145 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.95870208740234, normalised_time=0.90321411581222, max_time=15.142947912216, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0015.166 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-uploads.zip.tmp: 100 files added (on-disk size: 27184.6 KB)
+0015.561 (0) Creating zip file manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-uploads.zip.list-temp.tmp)
+0015.565 (0) Successfully created zip file manifest (size: 8285)
+0016.042 (0) Created uploads zip (0) - 48510.7 KB in 1.5 s (31364.9 KB/s) (sha1: 5da3bc71c449ab4132c23bf5709c6af84760fc15, sha256: ebdd775d711e684ae6ecb8c6a07221c7cc5ee2815086d008dc0ae7853c97a601)
+0016.049 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.050 (0) No remote despatch: user chose no remote backup service
+0016.051 (0) Recording as successfully uploaded: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-uploads.zip
+0016.054 (0) Deleting zip manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-uploads.zip.list.tmp)
+0016.056 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0016.058 (0) Number of backup sets in history: 0; groups (db): 1
+0016.059 (0) Number of backup sets in history: 0; groups (files): 1
+0016.060 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0016.065 (0) No backup of mu-plugins: excluded by user's options
+0016.068 (0) Beginning backup of other directories found in the content directory (index: 0)
+0016.069 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0016.070 (0) Looking for candidates to backup in: C:\Users\devjc\Local Sites\desertforgedai\app\public/wp-content
+0016.071 (0) finding files: .git: adding to list (1)
+0016.072 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0016.073 (0) finding files: chat_logs.db: adding to list (2)
+0016.075 (0) finding files: chat_logs.json: adding to list (3)
+0016.076 (0) finding files: index.php: adding to list (4)
+0016.077 (0) finding files: plugins: skipping: this is the plugins directory
+0016.078 (0) finding files: themes: skipping: this is the themes directory
+0016.080 (0) finding files: updraft: skipping: this is the updraft directory
+0016.081 (0) finding files: upgrade: skipping: excluded by options
+0016.082 (0) finding files: uploads: skipping: this is the uploads directory
+0016.083 (0) finding files: __pycache__: adding to list (5)
+0016.290 (0) Total entities for the zip file: 205 directories, 381 files (0 skipped as non-modified), 47.8 MB
+0016.350 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.392 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0016.460 (0) Zip: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.289 (0) Creating zip file manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-others.zip.list-temp.tmp)
+0020.292 (0) Successfully created zip file manifest (size: 24384)
+0020.719 (0) Created others zip (0) - 49032.5 KB in 4.6 s (10587.3 KB/s) (sha1: 34faaf3dc09f1d64de22dfbb3ae14b13ebeae208, sha256: ab6bfd48788a8252ee6fe3251bc4f0f7838b91de78e956be82e0a70fa37a3eaa)
+0020.725 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.726 (0) No remote despatch: user chose no remote backup service
+0020.727 (0) Recording as successfully uploaded: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-others.zip
+0020.730 (0) Deleting zip manifest (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-others.zip.list.tmp)
+0020.732 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.733 (0) Number of backup sets in history: 0; groups (db): 1
+0020.734 (0) Number of backup sets in history: 0; groups (files): 1
+0020.735 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0020.743 (0) Saving backup status to database (elements: 8)
+0020.745 (0) Beginning creation of database dump (WordPress DB)
+0020.746 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0020.767 (0) Table wp_options: Total expected rows (via COUNT): 206
+0020.768 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.868 (0) Table wp_options: Rows added in this batch (next record: 500): 202 (uncompressed bytes in this segment=881304) in 0.11 seconds
+0020.880 (0) Table wp_options: finishing file(s) (2, 215.4 KB)
+0020.892 (0) Table wp_users: Total expected rows (via COUNT): 1
+0020.894 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.897 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1423) in 0.01 seconds
+0020.905 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0020.914 (0) Table wp_usermeta: Total expected rows (via COUNT): 23
+0020.915 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.916 (0) Table wp_usermeta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2719) in 0.01 seconds
+0020.925 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0020.934 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0020.936 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0020.944 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0020.950 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0020.951 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.954 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2118) in 0.01 seconds
+0020.961 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0020.979 (0) Table wp_links: Total expected rows (via COUNT): 0
+0020.982 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0020.990 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0020.998 (0) Table wp_postmeta: Total expected rows (via COUNT): 168
+0020.999 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.003 (0) Table wp_postmeta: Rows added in this batch (next record: 194): 168 (uncompressed bytes in this segment=45351) in 0.01 seconds
+0021.011 (0) Table wp_postmeta: finishing file(s) (2, 5.4 KB)
+0021.019 (0) Table wp_posts: Total expected rows (via COUNT): 166
+0021.021 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.033 (0) Table wp_posts: Rows added in this batch (next record: 179): 166 (uncompressed bytes in this segment=449654) in 0.02 seconds
+0021.042 (0) Table wp_posts: finishing file(s) (2, 41.9 KB)
+0021.047 (0) Table wp_term_relationships: Total expected rows (approximate): 9
+0021.050 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=794) in 0.00 seconds
+0021.057 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0021.065 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0021.066 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.068 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=941) in 0.01 seconds
+0021.077 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0021.092 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0021.094 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.01 seconds
+0021.103 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0021.109 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0021.110 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.113 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=763) in 0.01 seconds
+0021.120 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0021.128 (0) Table wp_wsal_metadata: Total expected rows (via COUNT): 6
+0021.129 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.131 (0) Table wp_wsal_metadata: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=999) in 0.01 seconds
+0021.139 (0) Table wp_wsal_metadata: finishing file(s) (2, 0.5 KB)
+0021.146 (0) Table wp_wsal_occurrences: Total expected rows (via COUNT): 5
+0021.147 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.148 (0) Table wp_wsal_occurrences: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2723) in 0.00 seconds
+0021.156 (0) Table wp_wsal_occurrences: finishing file(s) (2, 0.7 KB)
+0021.157 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\devjc\Local Sites\desertforgedai\app\public/wp-content/updraft/backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db.gz (line 1923, C:\Users\devjc\Local Sites\desertforgedai\app\public\wp-content\plugins\updraftplus\backup.php)
+0021.160 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_options.table.tmpr501.gz (1/14/fopen): adding to final database dump
+0021.170 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_options.table.gz (2/14/fopen): adding to final database dump
+0021.171 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_users.table.tmpr2.gz (3/14/fopen): adding to final database dump
+0021.172 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_users.table.gz (4/14/fopen): adding to final database dump
+0021.174 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_usermeta.table.tmpr24.gz (5/14/fopen): adding to final database dump
+0021.175 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_usermeta.table.gz (6/14/fopen): adding to final database dump
+0021.176 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_commentmeta.table.tmpr0.gz (7/14/fopen): adding to final database dump
+0021.177 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_commentmeta.table.gz (8/14/fopen): adding to final database dump
+0021.178 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_comments.table.tmpr2.gz (9/14/fopen): adding to final database dump
+0021.180 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_comments.table.gz (10/14/fopen): adding to final database dump
+0021.181 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_links.table.tmpr0.gz (11/14/fopen): adding to final database dump
+0021.182 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_links.table.gz (12/14/fopen): adding to final database dump
+0021.183 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_postmeta.table.tmpr195.gz (13/14/fopen): adding to final database dump
+0021.185 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_postmeta.table.gz (14/14/fopen): adding to final database dump
+0021.186 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_posts.table.tmpr180.gz (15/14/fopen): adding to final database dump
+0021.189 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_posts.table.gz (16/14/fopen): adding to final database dump
+0021.190 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_term_relationships.table.tmpr100001.gz (17/14/fopen): adding to final database dump
+0021.191 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_term_relationships.table.gz (18/14/fopen): adding to final database dump
+0021.192 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_term_taxonomy.table.tmpr3.gz (19/14/fopen): adding to final database dump
+0021.193 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_term_taxonomy.table.gz (20/14/fopen): adding to final database dump
+0021.194 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_termmeta.table.tmpr0.gz (21/14/fopen): adding to final database dump
+0021.196 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_termmeta.table.gz (22/14/fopen): adding to final database dump
+0021.197 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_terms.table.tmpr3.gz (23/14/fopen): adding to final database dump
+0021.198 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_terms.table.gz (24/14/fopen): adding to final database dump
+0021.199 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_wsal_metadata.table.tmpr7.gz (25/14/fopen): adding to final database dump
+0021.201 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_wsal_metadata.table.gz (26/14/fopen): adding to final database dump
+0021.202 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_wsal_occurrences.table.tmpr6.gz (27/14/fopen): adding to final database dump
+0021.203 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db-table-wp_wsal_occurrences.table.gz (28/14/fopen): adding to final database dump
+0021.216 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db.gz: finished writing out complete database file (269.4 KB)
+0021.234 (0) Total database tables backed up: 14 (backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db.gz, size: 275996, sha1: f2a4910a3aa7369fbee8365cdee3244a569dc681, sha256: 39ec57b3b9d329eeede243e05a8b85f9f1c67a15bb80d668378b4cdbdee2bf07)
+0021.239 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-plugins.zip: plugins: This file has already been successfully processed
+0021.240 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-themes.zip: themes: This file has already been successfully processed
+0021.241 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-uploads.zip: uploads: This file has already been successfully processed
+0021.242 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-others.zip: others: This file has already been successfully processed
+0021.243 (0) backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db.gz: db: This file has not yet been successfully uploaded: will queue
+0021.244 (0) Saving backup history. Total backup size: 119.1 MB
+0021.247 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0021.251 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0021.251 (0) No remote despatch: user chose no remote backup service
+0021.253 (0) Recording as successfully uploaded: backup_2025-06-29-0512_desertForgedAi_7fba20d5d086-db.gz
+0021.256 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0021.257 (0) Number of backup sets in history: 1; groups (db): 1
+0021.258 (0) Examining (for databases) backup set with group_id=0, nonce=7fba20d5d086, datestamp=1751173979 (Jun 29 2025 05:12:59)
+0021.259 (0) This backup set is the backup set just made, so will not be deleted.
+0021.259 (0) Number of backup sets in history: 1; groups (files): 1
+0021.260 (0) Examining (for files) backup set with nonce=7fba20d5d086, datestamp=1751173979 (Jun 29 2025 05:12:59)
+0021.260 (0) This backup set is the backup set just made, so will not be deleted.
+0021.261 (0) This backup set is the backup set just made, so will not be deleted.
+0021.261 (0) This backup set is the backup set just made, so will not be deleted.
+0021.261 (0) This backup set is the backup set just made, so will not be deleted.
+0021.261 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0021.263 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0021.265 (0) Resume backup (7fba20d5d086, 0): finish run
+0021.269 (0) Decremented the semaphore (fd) by 1
+0021.272 (0) Semaphore (fd) unlocked
+0021.273 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0021.278 (0) No email will/can be sent - the user has not configured an email address.
+0021.279 (0) The backup succeeded and is now complete

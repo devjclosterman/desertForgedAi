@@ -137,17 +137,7 @@ add_action( 'widgets_init', '_s_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
-function _s_scripts() {
-	wp_enqueue_style( '_s-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( '_s-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( '_s-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-}
-add_action( 'wp_enqueue_scripts', '_s_scripts' );
 
 /**
  * Implement the Custom Header feature.
@@ -175,4 +165,103 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+
+add_action('admin_menu', 'custom_combined_admin_menu');
+
+function custom_combined_admin_menu() {
+    // Main menu item
+    add_menu_page(
+        'My Admin Page',                // Page title
+        'My Admin Menu',               // Menu label
+        'manage_options',              // Capability
+        'my-admin-page-slug',          // Slug
+        'my_admin_page_content',       // Function to display content
+        'dashicons-admin-generic',     // Icon
+        100                            // Position
+    );
+
+    // Optional: Redundant submenu for "Overview"
+    add_submenu_page(
+        'my-admin-page-slug',
+        'Overview',
+        'Overview',
+        'manage_options',
+        'my-admin-page-slug',
+        'my_admin_page_content'
+    );
+
+    // Submenu for bot logs
+    add_submenu_page(
+        'my-admin-page-slug',
+        'LLaMA Bot Logs',
+        'LLaMA Bot Logs',
+        'manage_options',
+        'llama-bot-logs',
+        'llama_logs_page'
+    );
+}
+
+function my_admin_page_content() {
+    echo '<div class="wrap"><h1>Welcome to My Admin Page</h1><p>This is your main admin dashboard.</p></div>';
+}
+
+function llama_logs_page() {
+    echo '<div class="wrap"><h1>LLaMA Bot Logs</h1>';
+
+    $db_path = ABSPATH . 'chat_logs.db';
+
+    if (!file_exists($db_path)) {
+        echo "<p><strong>Error:</strong> chat_logs.db not found at <code>{$db_path}</code></p></div>";
+        return;
+    }
+
+    try {
+        $db = new PDO('sqlite:' . $db_path);
+        $results = $db->query("SELECT timestamp, user_id, prompt, reply FROM logs ORDER BY id DESC LIMIT 50");
+
+        echo '<table class="widefat fixed striped"><thead><tr>
+                <th>Timestamp</th><th>User ID</th><th>Prompt</th><th>Reply</th>
+              </tr></thead><tbody>';
+
+        foreach ($results as $row) {
+            echo '<tr>
+                <td>' . esc_html($row['timestamp']) . '</td>
+                <td>' . esc_html($row['user_id']) . '</td>
+                <td>' . esc_html($row['prompt']) . '</td>
+                <td>' . esc_html($row['reply']) . '</td>
+              </tr>';
+        }
+
+        echo '</tbody></table></div>';
+    } catch (PDOException $e) {
+        echo '<p><strong>Database Error:</strong> ' . esc_html($e->getMessage()) . '</p></div>';
+    }
+}
+
+function _s_enqueue_bot_script() {
+    wp_enqueue_script('bot-chat', get_template_directory_uri() . '/js/bot.js', array(), null, true);
+}
+add_action('wp_enqueue_scripts', '_s_enqueue_bot_script');
+
+
+function _s_scripts() {
+	wp_enqueue_style( '_s-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( '_s-style', 'rtl', 'replace' );
+
+	wp_enqueue_script( '_s-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+}
+add_action( 'wp_enqueue_scripts', '_s_scripts' );
+
+
+wp_enqueue_script('llama-bot', get_template_directory_uri() . '/js/bot.js', array(), _S_VERSION, true);
+
+function enqueue_tailwind() {
+    wp_enqueue_style('tailwind', 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+}
+add_action('wp_enqueue_scripts', 'enqueue_tailwind');
 
