@@ -1,0 +1,1 @@
+#llama-bot{max-width:400px;border:1px solid #ccc;padding:10px;font-family:sans-serif}#chat-box{height:200px;overflow-y:scroll;border:1px solid #eee;padding:5px;margin-bottom:10px}#llama-input{width:70%;padding:5px}#llama-bot button{padding:5px 10px}.user{text-align:right;color:blue}.bot{text-align:left;color:green}

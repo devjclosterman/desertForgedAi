@@ -2,7 +2,7 @@ console.log("✅ bot.js loaded!");
 console.log("🚀 Sending test prompt to FastAPI...");
 
 // ✅ Add this block
-fetch("http://127.0.0.1:8000/chat", {
+fetch("https://llama-backend-y9dx.onrender.com/chat", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
