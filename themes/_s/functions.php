@@ -230,7 +230,7 @@ function llama_bot_admin_page() {
             'bot_personality' => $personality
         );
 
-        $response = wp_remote_post('http://desertforgedai.local:8000/client/update', array(
+        $response = wp_remote_post('http://localhost:8000/client/update', array(
             'headers' => array('Content-Type' => 'application/json'),
             'body' => json_encode($data)
         ));
