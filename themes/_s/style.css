@@ -1825,7 +1825,7 @@ margin: 0 auto;
 .project-card {
 background-color: #1e1e1e;
 border-radius: 8px;
-padding: 1.5rem;
+padding: 0.5rem;
 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 transition: transform 0.2s;
 margin: 0 auto;
@@ -1863,7 +1863,7 @@ color: #ffffff;
 
 .screenshots {
     height: auto;
-    width: 270px;
+    width: 650px;
 }
 
 
