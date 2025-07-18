@@ -69,8 +69,8 @@
 <p id="datetime"></p>
 </div>
 <div>
-  <h1 class="overlay-heading">Desert Forged Ai</h1>
-  <p class="paraText">© 2025 Desert Forged Technologies</p>
+  <h1 class="overlay-heading header3">Desert Forged Ai</h1>
+  <p class="paraText header3">© 2025 Desert Forged Technologies</p>
 </div>
 </section>
 

@@ -1884,8 +1884,15 @@ color: #fff;
 text-align: center;
 }
 
-.services-section h2 {
+.header2 {
 font-size: 2.5rem;
+margin-bottom: 2.5rem;
+color: #00f0ff;
+text-shadow: 0 0 6px #00f0ff;
+}
+
+.header3 {
+font-size: 1.5rem;
 margin-bottom: 2.5rem;
 color: #00f0ff;
 text-shadow: 0 0 6px #00f0ff;
