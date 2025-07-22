@@ -190,49 +190,4 @@ add_action('wp_enqueue_scripts', 'enqueue_tailwind');
 
 add_action('admin_menu', 'llama_bot_admin_menu');
 
-function llama_bot_admin_menu() {
-    add_menu_page(
-        'LLaMA Bot Settings',
-        'LLaMA Bot',
-        'manage_options',
-        'llama-bot-admin',
-        'llama_bot_admin_page',
-        'dashicons-format-chat',
-        100
-    );
-}
 
-function llama_bot_admin_page() {
-    ?>
-    <div class="wrap">
-        <h1>LLaMA Bot Settings</h1>
-
-        <form method="post" action="">
-            <?php if (isset($_POST['submit'])): ?>
-                <div class="updated"><p><strong>Personality updated.</strong></p></div>
-            <?php endif; ?>
-            <input type="hidden" name="client_id" value="desertforgedai" />
-            <label for="bot_personality">Bot Personality:</label><br>
-            <textarea name="bot_personality" rows="6" cols="60"><?php echo esc_textarea(get_option('llama_bot_personality', 'You are a helpful assistant.')); ?></textarea><br><br>
-            <input type="submit" name="submit" value="Update Personality" class="button button-primary" />
-        </form>
-    </div>
-    <?php
-
-    if (isset($_POST['submit'])) {
-        $personality = sanitize_textarea_field($_POST['bot_personality']);
-        update_option('llama_bot_personality', $personality);
-
-        // Send to backend
-        $data = array(
-            'client_id' => 'desertforgedai',
-            'company_name' => 'Desert Forged AI',
-            'bot_personality' => $personality
-        );
-
-        $response = wp_remote_post('http://localhost:8000/client/update', array(
-            'headers' => array('Content-Type' => 'application/json'),
-            'body' => json_encode($data)
-        ));
-    }
-}
