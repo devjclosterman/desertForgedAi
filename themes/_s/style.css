@@ -1942,7 +1942,7 @@ opacity: 0.85;
 
 /* testimonial */
 .min-h-screen {
-    min-height: 50vh !important;
+    min-height: 50vh;
 }
 
 /* home */
@@ -2152,4 +2152,27 @@ video {
    flex-direction: column;
    align-items: center;
   }
+  .ball-4 {
+    display: none;
+  } 
+  .ball-2 {
+    display: none;
+  } 
+   .front {
+    left: 16%;
+  }
+}
+
+@media (max-width: 750px) {
+  .min-h-screen {
+   max-height: 15vh;
+  }
+}
+
+/* temp  */
+.page-id-129 .footer {
+  display:none;
+}
+.page-id-129 .commander-footer {
+  display:none;
 }
