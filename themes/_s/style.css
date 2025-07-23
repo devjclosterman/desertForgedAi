@@ -1942,7 +1942,7 @@ opacity: 0.85;
 
 /* testimonial */
 .min-h-screen {
-    min-height: 50vh;
+    min-height: 50vh !important;
 }
 
 /* home */
