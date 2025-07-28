@@ -2130,7 +2130,12 @@ video {
 	width: 100%;
 }
 
-
+/* admin dashboard */
+.llama-metrics {
+  padding-top: 4%;
+  max-width: 80%;
+  margin: 0 auto;
+}
 
 
 /* globals */
@@ -2166,6 +2171,24 @@ video {
 @media (max-width: 750px) {
   .min-h-screen {
    max-height: 15vh;
+  }
+}
+
+@media (max-width: 1512px) {
+.mediumMove {
+  left: 50rem;
+}
+.moveSmall {
+  left: 55rem;
+}
+}
+
+@media (max-width: 950px) {
+  .status-strip {
+   display: none;
+  }
+  .front {
+    left: 18%;
   }
 }
 
