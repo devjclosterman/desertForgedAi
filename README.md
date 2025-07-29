@@ -25,9 +25,7 @@ Graph of chat activity
 🎯 "Book a Call" CTA button
 
 🗂️ File Structure
-plaintext
-Copy
-Edit
+
 llama-bot/
 │
 ├── llama-bot.php               # Main plugin file
@@ -43,6 +41,7 @@ llama-bot/
 │   ├── lead-capture.php        # Handles AJAX lead submission
 │   └── analytics-logger.php    # Logs CTA clicks & message counts
 📦 Installation
+
 Drop the entire llama-bot/ folder into your wp-content/plugins/ directory.
 
 Activate LLaMA Bot from the WordPress Plugins page.
@@ -69,14 +68,12 @@ Company Name
 
 Company Values
 
-Bot Tone (e.g., helpful, bold, sarcastic)
+Bot Tone (helpful, bold, sarcastic)
 
 🧪 API Endpoint
 Make sure your backend FastAPI server is running at:
 
 bash
-Copy
-Edit
 http://localhost:8000/client/update
 This is where prompts are sent and responses are received.
 
@@ -93,10 +90,7 @@ Conversion rate from chat to CTA
 
 📤 Exporting Data
 Click Export Logs to CSV in the dashboard to save all chatbot logs locally as:
-
-Copy
-Edit
 llama_logs_export.csv
-🧠 Built By
-Desert Forged AI
+
+🧠 Built By Desert Forged AI
 Powering smart conversations and data-driven business websites.
