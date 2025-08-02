@@ -1286,9 +1286,10 @@ padding: 4rem 2rem;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-gap: 3rem;
-max-width: 1100px;
+gap: 2rem;
+max-width: 80%;
 margin: 0 auto;
+align-items: end;
 }
 
 .contact-message {
@@ -1352,8 +1353,8 @@ background-color: #00c0cc;
   background-color: #1e1e1e;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: auto; 
-  height: 30em;
+  background-size: contain; 
+  height: auto;
 }
 
 .about_header {
@@ -1373,7 +1374,7 @@ position: relative;
 overflow: hidden; 
 border-radius: 25px;
 backdrop-filter: blur(3px);
-height: 18em;
+height: auto;
 padding: 1%;
 max-width: 90%;
 margin: 0 auto;
@@ -1942,7 +1943,7 @@ opacity: 0.85;
 
 /* testimonial */
 .min-h-screen {
-    min-height: 50vh !important;
+    min-height: 20rem !important;
 }
 
 /* home */
@@ -1963,7 +1964,7 @@ opacity: 0.85;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 37vh;
   z-index: -1;                /* Behind all content */
   pointer-events: none;
 }
@@ -1971,6 +1972,7 @@ opacity: 0.85;
 .hero {
   position: relative; /* So absolute children like #stars position correctly */
   overflow: hidden;
+  height: 34rem;
 }
 
 .content-overlay {
@@ -2130,7 +2132,12 @@ video {
 	width: 100%;
 }
 
-
+/* admin dashboard */
+.llama-metrics {
+  padding-top: 4%;
+  max-width: 80%;
+  margin: 0 auto;
+}
 
 
 /* globals */
@@ -2169,10 +2176,36 @@ video {
   }
 }
 
+@media (max-width: 1512px) {
+.mediumMove {
+  left: 50rem;
+}
+.moveSmall {
+  left: 55rem;
+}
+}
+
+@media (max-width: 950px) {
+  .status-strip {
+   display: none;
+  }
+  .front {
+    left: 18%;
+  }
+}
+
 /* temp  */
 .page-id-129 .footer {
   display:none;
 }
 .page-id-129 .commander-footer {
   display:none;
+}
+
+
+
+
+.calendly-badge-widget {
+  top: 7rem !important;
+  
 }
